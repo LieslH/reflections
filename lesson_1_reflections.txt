@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Didn't have to scroll through the whole file to look for errors.
+Made it easier and quicker because pulled out the differences.
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Can easily see all changes made in the past.
+Easier to revert back to previous version.
+Can learn from previous mistakes and know how it was fixed.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros: 
+Can choose size of commit
+Can choose appropriate place for a commit
+
+Cons:
+Might forget to save manually and then lose a lot of work
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is useful for coding (e.g. if have multiple related files for one program/webpage we would need to have all files together and change in one file might need to be made in the other files too).
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives a list of all the changes that were committed and includes the commit ID, the person who made the commit, the date of the commit and a brief description of the commit.
+
+git diff gives a detailed description of the differences between two commits. It includes info on lines deleted (red), lines inserted (green) and lines that stayed the same (white/black).
+
+
+How might using version control make you more confident to make changes that could break something?
+
+You will easily be able to revert back so it's not as risky to make the commits as it could be.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Editing pre-existing code to make variations, add new features etc....without messing anything up!!
