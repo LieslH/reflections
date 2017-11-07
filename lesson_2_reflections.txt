@@ -10,9 +10,25 @@ It is the intermediary between the two and contains files added to it that you p
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-You can save (or "add") each logical change you make to the staging area first and then commit all in one commit command (rather than doing a commit every time you make a change) - saves time??
+You can save (or "add") each logical change you make to the staging area first and then commit all in one commit command (rather than doing a commit every time you make a change). Controls which changes form part of each commit. 
 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-Branches are useful when you want to try out a new experimental feature for example (but just testing/playing around with it so don't want to make any definite changes. They're also uesful when wanting to, for example, create a different version, but still keep the original in tact (e.g. different language, easy-mode)
+Branches are useful when you want to try out a new experimental feature for example (but just testing/playing around with it so don't want to make any definite changes. They're also uesful when wanting to, for example, create a different version, but still keep the original in tact (e.g. different language, easy-mode).
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help one to see the parent commits, reachability between commits, which commits are part of which branch (and where the latest common commit is). 
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together merges the changes made in eahc branch into one branch. It is represented in that way to show where the new branch was created, what the last common commit was and after which commits in the separate branches the merge is made. 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merging is able to point out merge conflicts, which can then be looked at and resolved.
+ 

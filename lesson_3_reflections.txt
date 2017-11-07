@@ -1,0 +1,32 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+It is useful to have a remote repository when collaborating with other users or if using multiple computers. 
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If you have been making changes locally, you may not want to merge anyone elses changes on the remote to your work just yet. Rather after working locally, merge and resolve any conflicts.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork allows users to copy/clone an existing repository on GitHub onto HitHub itself (i.e. a remote copy). You would use this if you want to add changes to an already existing repository without the changes being made to that actual original repository.
+
+Clone allows users to make a copy of a remote repository onto your local computer. The user can then make changes locally before pushing these changes back to the master branch of this repository.
+
+Branch occurs on a single repository and is useful if multiple people are working on the repository or if the user wants to experiment with new features, new versions etc. without making changes to the master.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+You will have any recent changes and it will prevent there being any merge confilcts later on. 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaboration would probably be over Google docs or e-mail. Although these tools may be easier to use initially, GitHub definitely has many benefits and, once all the correct commands to use and terminology are learnt, it will be much better in the long run. Better for version control and seeing and comparing changes!
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Use a separate branch if wanting to test something out, create a different version or if different people are working on the same project. 
